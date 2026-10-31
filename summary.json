@@ -1,0 +1,408 @@
+{
+ "checked_at": "2026-10-31T19:17:22+02:00",
+ "operators": {
+  "dtek-kem": {
+   "status": "працює",
+   "official": true,
+   "sources": [
+    {
+     "source": "YASNO 25/902",
+     "kind": "API",
+     "official": true,
+     "link": "https://app.yasno.ua/api/blackout-service/public/shutdowns/regions/25/dsos/902/planned-outages",
+     "result": "ok",
+     "detail": "31.10"
+    },
+    {
+     "source": "outage-data-ua kyiv",
+     "kind": "неофіційне дзеркало",
+     "official": false,
+     "link": "https://github.com/Baskerville42/outage-data-ua",
+     "result": "ok",
+     "detail": "30.10"
+    }
+   ]
+  },
+  "crimea": {
+   "status": "тимчасово окупована — буде після повернення додому",
+   "official": null,
+   "sources": []
+  },
+  "dtek-krem": {
+   "status": "працює",
+   "official": false,
+   "sources": [
+    {
+     "source": "outage-data-ua kyiv-region",
+     "kind": "неофіційне дзеркало",
+     "official": false,
+     "link": "https://github.com/Baskerville42/outage-data-ua",
+     "result": "ok",
+     "detail": "31.10, 01.11"
+    }
+   ]
+  },
+  "vinnytsia-oe": {
+   "status": "не працює",
+   "official": true,
+   "sources": [
+    {
+     "source": "Vinnytsia",
+     "kind": "сторінка сайту",
+     "official": true,
+     "link": "https://www.voe.com.ua/disconnection/detailed",
+     "result": "error",
+     "detail": "FetchError: GET https://www.voe.com.ua/disconnection/detailed/autocomplete/read_city?…: HTTP 404"
+    }
+   ]
+  },
+  "volyn-oe": {
+   "status": "працює",
+   "official": true,
+   "sources": [
+    {
+     "source": "Volyn",
+     "kind": "картинка з сайту",
+     "official": true,
+     "link": "https://api-voe-poweron.inneti.net/api/options?option_key[]=pw_gpv_image_today&option_key[]=pw_gpv_image_tomorrow",
+     "result": "ok",
+     "detail": "nothing published"
+    }
+   ]
+  },
+  "dtek-dnem": {
+   "status": "працює",
+   "official": true,
+   "sources": [
+    {
+     "source": "YASNO 3/301",
+     "kind": "API",
+     "official": true,
+     "link": "https://app.yasno.ua/api/blackout-service/public/shutdowns/regions/3/dsos/301/planned-outages",
+     "result": "ok",
+     "detail": "31.10, 01.11"
+    },
+    {
+     "source": "DTEK DNEM",
+     "kind": "сторінка сайту",
+     "official": true,
+     "link": "https://www.dtek-dnem.com.ua/ua/shutdowns",
+     "result": null,
+     "detail": null
+    },
+    {
+     "source": "outage-data-ua dnipro",
+     "kind": "неофіційне дзеркало",
+     "official": false,
+     "link": "https://github.com/Baskerville42/outage-data-ua",
+     "result": null,
+     "detail": null
+    }
+   ]
+  },
+  "cek": {
+   "status": "працює",
+   "official": true,
+   "sources": [
+    {
+     "source": "YASNO 3/303",
+     "kind": "API",
+     "official": true,
+     "link": "https://app.yasno.ua/api/blackout-service/public/shutdowns/regions/3/dsos/303/planned-outages",
+     "result": "ok",
+     "detail": "31.10, 01.11"
+    },
+    {
+     "source": "DTEK DNEM",
+     "kind": "сторінка сайту",
+     "official": true,
+     "link": "https://www.dtek-dnem.com.ua/ua/shutdowns",
+     "result": null,
+     "detail": null
+    },
+    {
+     "source": "outage-data-ua dnipro",
+     "kind": "неофіційне дзеркало",
+     "official": false,
+     "link": "https://github.com/Baskerville42/outage-data-ua",
+     "result": null,
+     "detail": null
+    }
+   ]
+  },
+  "dtek-dem": {
+   "status": "не публікує",
+   "official": null,
+   "sources": []
+  },
+  "zhytomyr-oe": {
+   "status": "працює",
+   "official": true,
+   "sources": [
+    {
+     "source": "Zhytomyr",
+     "kind": "сторінка сайту",
+     "official": true,
+     "link": "https://www.ztoe.com.ua/unhooking-search.php",
+     "result": "ok",
+     "detail": "31.10, 01.11"
+    }
+   ]
+  },
+  "zakarpattia-oe": {
+   "status": "працює",
+   "official": true,
+   "sources": [
+    {
+     "source": "Zakarpattia",
+     "kind": "картинка з сайту",
+     "official": true,
+     "link": "https://api-outage-zakarpat-energy.inneti.net/api/options?option_key[]=pw_gpv_image_today&option_key[]=pw_gpv_image_tomorrow",
+     "result": "ok",
+     "detail": "nothing published"
+    }
+   ]
+  },
+  "zaporizhzhia-oe": {
+   "status": "працює",
+   "official": true,
+   "sources": [
+    {
+     "source": "Zaporizhzhia",
+     "kind": "сторінка сайту",
+     "official": true,
+     "link": "https://www.zoe.com.ua/outage/",
+     "result": "ok",
+     "detail": "nothing published"
+    }
+   ]
+  },
+  "prykarpattia-oe": {
+   "status": "працює",
+   "official": true,
+   "sources": [
+    {
+     "source": "Prykarpattia",
+     "kind": "API",
+     "official": true,
+     "link": null,
+     "result": "ok",
+     "detail": "nothing published"
+    }
+   ]
+  },
+  "kirovohrad-oe": {
+   "status": "працює",
+   "official": true,
+   "sources": [
+    {
+     "source": "Telegram SvitloKropyvnytskyiMisto",
+     "kind": "Telegram-канал",
+     "official": true,
+     "link": "https://t.me/s/SvitloKropyvnytskyiMisto",
+     "result": "ok",
+     "detail": "nothing published"
+    },
+    {
+     "source": "Telegram SvitloOleksandriyskohoRaionu",
+     "kind": "Telegram-канал",
+     "official": true,
+     "link": "https://t.me/s/SvitloOleksandriyskohoRaionu",
+     "result": null,
+     "detail": null
+    }
+   ]
+  },
+  "luhansk-leo": {
+   "status": "не публікує",
+   "official": null,
+   "sources": []
+  },
+  "lviv-oe": {
+   "status": "працює",
+   "official": true,
+   "sources": [
+    {
+     "source": "Loe",
+     "kind": "API",
+     "official": true,
+     "link": "https://api.loe.lviv.ua/api/menus?page=1&type=photo-grafic",
+     "result": "ok",
+     "detail": "nothing published"
+    }
+   ]
+  },
+  "mykolaiv-oe": {
+   "status": "працює",
+   "official": true,
+   "sources": [
+    {
+     "source": "Mykolaiv",
+     "kind": "API",
+     "official": true,
+     "link": "https://off.energy.mk.ua/api/v2/schedule/active",
+     "result": "ok",
+     "detail": "nothing published"
+    }
+   ]
+  },
+  "dtek-oem": {
+   "status": "працює",
+   "official": true,
+   "sources": [
+    {
+     "source": "DTEK OEM",
+     "kind": "сторінка сайту",
+     "official": true,
+     "link": "https://www.dtek-oem.com.ua/ua/shutdowns",
+     "result": "ok",
+     "detail": "nothing published"
+    },
+    {
+     "source": "outage-data-ua odesa",
+     "kind": "неофіційне дзеркало",
+     "official": false,
+     "link": "https://github.com/Baskerville42/outage-data-ua",
+     "result": "ok",
+     "detail": "nothing published"
+    }
+   ]
+  },
+  "poltava-oe": {
+   "status": "працює",
+   "official": true,
+   "sources": [
+    {
+     "source": "Poltava",
+     "kind": "сторінка сайту",
+     "official": true,
+     "link": "https://www.poe.pl.ua/disconnection/power-outages/",
+     "result": "ok",
+     "detail": "31.10, 01.11"
+    }
+   ]
+  },
+  "rivne-oe": {
+   "status": "працює",
+   "official": true,
+   "sources": [
+    {
+     "source": "Rivne",
+     "kind": "сторінка сайту",
+     "official": true,
+     "link": "https://www.roe.vsei.ua/disconnections",
+     "result": "ok",
+     "detail": "nothing published"
+    }
+   ]
+  },
+  "sumy-oe": {
+   "status": "працює",
+   "official": true,
+   "sources": [
+    {
+     "source": "SumyNews",
+     "kind": "картинка з сайту",
+     "official": true,
+     "link": "https://www.soe.com.ua/press-service/news",
+     "result": "ok",
+     "detail": "nothing published"
+    }
+   ]
+  },
+  "ternopil-oe": {
+   "status": "працює",
+   "official": true,
+   "sources": [
+    {
+     "source": "Ternopil",
+     "kind": "API",
+     "official": true,
+     "link": null,
+     "result": null,
+     "detail": null
+    }
+   ]
+  },
+  "kharkiv-oe": {
+   "status": "працює",
+   "official": true,
+   "sources": [
+    {
+     "source": "Kharkiv",
+     "kind": "сторінка сайту",
+     "official": true,
+     "link": "https://oblenergo.kharkiv.ua/uk/rss.xml",
+     "result": "ok",
+     "detail": "nothing published"
+    }
+   ]
+  },
+  "kherson-oe": {
+   "status": "недоступно",
+   "official": null,
+   "sources": []
+  },
+  "khmelnytskyi-oe": {
+   "status": "працює",
+   "official": true,
+   "sources": [
+    {
+     "source": "Khmelnytskyi",
+     "kind": "картинка з сайту",
+     "official": true,
+     "link": "https://hoe.com.ua/post/novini-kompaniji",
+     "result": "ok",
+     "detail": "nothing published"
+    }
+   ]
+  },
+  "cherkasy-oe": {
+   "status": "працює",
+   "official": true,
+   "sources": [
+    {
+     "source": "Cherkasy",
+     "kind": "API",
+     "official": true,
+     "link": "https://www.cherkasyoblenergo.com/api/v1/posts/main?lang=uk&limit=200",
+     "result": "ok",
+     "detail": "31.10, 01.11"
+    }
+   ]
+  },
+  "chernivtsi-oe": {
+   "status": "працює",
+   "official": true,
+   "sources": [
+    {
+     "source": "Chernivtsi",
+     "kind": "сторінка сайту",
+     "official": true,
+     "link": "https://oblenergo.cv.ua/shutdowns/",
+     "result": "ok",
+     "detail": "nothing published"
+    }
+   ]
+  },
+  "chernihiv-oe": {
+   "status": "працює",
+   "official": true,
+   "sources": [
+    {
+     "source": "Chernihiv",
+     "kind": "Telegram-канал",
+     "official": true,
+     "link": "https://t.me/s/chernigivoblenergo",
+     "result": "ok",
+     "detail": "31.10"
+    }
+   ]
+  },
+  "sevastopol": {
+   "status": "тимчасово окупована — буде після повернення додому",
+   "official": null,
+   "sources": []
+  }
+ }
+}
